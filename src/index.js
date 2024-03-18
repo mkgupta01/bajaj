@@ -7,7 +7,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.post("/bhfl", (req, res) => {
   const arr = req.body;
-  const data = {
+  var data = {
     name: "Mayank Kumar Gupta",
     email: "mayank1946.be21@chitkara.edu.in",
     roll_number: 2110991946,
